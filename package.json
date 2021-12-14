@@ -7,7 +7,7 @@
     "url": "git+https://github.com/pkun2/wetube-reloaded.git"
   },
   "scripts": {
-    "dev": "nodemon --exec babel-node src/server.js"
+    "start": "nodemon --exec babel-node src/server.js"
   },
   "author": "pkun",
   "license": "MIT",
@@ -17,7 +17,8 @@
   "homepage": "https://github.com/pkun2/wetube-reloaded#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "morgan": "^1.10.0"
+    "morgan": "^1.10.0",
+    "pug": "^3.0.2"
   },
   "devDependencies": {
     "@babel/core": "^7.14.6",
