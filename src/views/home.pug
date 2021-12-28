@@ -1,4 +1,9 @@
 extends base.pug
+include mixins/video
 
 block content 
-    h1 HOME
+    h2 Welocme here you will see the trending videos 
+    each potato in videos 
+        +video(potato)
+    else 
+        li sorry noting found
